@@ -1,0 +1,19 @@
+@mixin nav ($margin, $width, $border, $background, $padding: 20px) {
+	margin: $margin;
+	width: $width;
+	border: $border;
+	background: $background;
+	padding: $padding;
+}
+
+.nav-style1 {
+	@include nav(0 auto, 450px, 2px solid #49213e, #fff);
+}
+
+.nav-style2 {
+	@include nav(0 auto, 450px, 2px solid black, #fff);
+}
+
+.nav-style3 {
+	@include nav(0 auto, 450px, 2px solid grey, #fff);	
+}

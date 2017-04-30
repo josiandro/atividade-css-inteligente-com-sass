@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.link {
+	float: right;
+	display: flex;
+	padding: 5px 0;
+
+	li {
+		margin-left: 20px;
+	}
+
+	a {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}

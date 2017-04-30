@@ -1,0 +1,30 @@
+%link-style1 {
+	color: #49213e;
+
+	&:hover {
+		background: #49213e;
+		color: #fff;
+	}
+}
+
+%link-style2 {
+	color: black;
+
+	&:hover {
+		background: black;
+		color: yellow;
+	}
+}
+
+%link-style3 {
+	color: gray;
+
+	&:hover {
+		background: gray;
+		color: red;
+	}
+}
+
+.link a {
+	@extend %link-style1;
+}

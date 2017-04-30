@@ -1,0 +1,27 @@
+%brand-style1 {
+	color: #49213e;
+	font-weight: bold;
+	font-size: 25px;
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+%brand-style2 {
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+%brand-style3 {
+	color: gray;
+	font-weight: bold;
+	font-size: 25px;
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+.brand {
+	@extend %brand-style1;
+}
