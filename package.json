@@ -9,7 +9,6 @@
   "author": "Josiandro dos S. Silveira",
   "license": "ISC",
   "devDependencies": {
-    "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.0.4",
     "gulp-htmlmin": "^3.0.0",

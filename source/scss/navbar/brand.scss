@@ -1,27 +1,19 @@
-%brand-style1 {
-	color: #49213e;
-	font-weight: bold;
-	font-size: 25px;
-	display: inline-block;
-	text-transform: capitalize;
+@mixin brand ($color, $font-weight, $display, $text-transform, $font-size: 25px) {
+	color: $color;
+	font-weight: $font-weight;
+	display: $display;
+	text-transform: $text-transform;
+	font-size: $font-size;
 }
 
-%brand-style2 {
-	color: black;
-	font-weight: bold;
-	font-size: 25px;
-	display: inline-block;
-	text-transform: capitalize;
+.brand-style1 {
+	@include brand(#49213e, bold, inline-block, capitalize);
 }
 
-%brand-style3 {
-	color: gray;
-	font-weight: bold;
-	font-size: 25px;
-	display: inline-block;
-	text-transform: capitalize;
+.brand-style2 {
+	@include brand(black, bold, inline-block, capitalize);
 }
 
-.brand {
-	@extend %brand-style1;
+.brand-style3 {
+	@include brand(gray, bold, inline-block, capitalize);
 }
