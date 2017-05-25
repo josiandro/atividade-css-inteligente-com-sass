@@ -24,3 +24,7 @@
 		color: red;
 	}
 }
+
+li a {
+	@extend %link-style1;
+}
